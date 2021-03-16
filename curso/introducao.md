@@ -7,4 +7,4 @@
 <p>3 - Assembly é poderoso!<br>Se você conhece o kernel linux você deve saber que ele  foi feito em grande parte com C mas mesmo assim foi nescessario 250 mil linhas de assembly!</p>
 
 <h2>Entendendo Termos</h2>
-<p>- Assembly: Linguagem de programeção<br>- Assembler: Compilador da linguagem Assembly<br>- Nasm: Um assembler muito famoso e ele que usaremos no nosso curso!</p>
+<p>- Assembly: Linguagem de programação<br>- Assembler: Compilador da linguagem Assembly<br>- Nasm: Um assembler muito famoso e ele que usaremos no nosso curso!</p>
