@@ -8,7 +8,7 @@
 <p>Aprenda a linguagem Assembly do zero!</p>
 <p align = "center"> <img src = "asm_data.png"></p>
 
-<p>Requisitos: Nenhum requisito é necessário, mas é recomendável lógica de programação<br>
+<p>Requisitos: Nenhum requisito é necessário, mas é recomendável lógica de programação<br><br>Nesse curso aprenderemos a linguagem assembly na arquitetura x86, syntax INTEL e compilador NASM focando no sistema operacional LINUX porém as diferenças para o windows são pequenas!</p>
 <hr>
 <p>Conteudo:</p>
 <ol>

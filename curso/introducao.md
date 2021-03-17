@@ -12,6 +12,11 @@
 <p><br>A programação assembly pode ser um pouco confusa porque:<br><br>Existem muitos montadores diferentes por aí: MASM, NASM, gas, as86, TASM, a86, Terse, etc. Todos usam linguagens de montagem radicalmente diferentes.
 Existem diferenças na maneira como você deve codificar para Linux, OS / X, Windows, etc.<br>Porem a diferença entre o assembly do Windows e do Linux é muito menor do que a diferença entre o x86 e o ​​assembly do PIC<br></p>
 
+<p>Qual arquitetura aprender?
+Eu recomendaria a arquitetura x86, por três motivos:
+É, provavelmente, a arquitetura do seu computador. Então você poderá usá-la na sua máquina. Além de estudar software que roda na sua máquina.
+Aprendendo da arquitetura x86 você poderá fazer engenharia reversa em softwares que foram compilados para essa arquitetura. Ou seja, softwares que rodam no seu PC.</p>
+
 <p>Vejamos os Assemblers mais usados:<br>-MASM , o Microsoft Assembler. Ele produz arquivos OMF (mas o linker da Microsoft pode convertê-los para o formato win32). Ele oferece suporte a uma linguagem assembly enorme e desajeitada. O endereçamento de memória não é intuitivo. As diretivas necessárias para configurar um programa tornam a programação desagradável.<br><br>-GAS , o membro do GNU. Ele usa a sintaxe do estilo AT&T um tanto feia que muitas pessoas não gostam; entretanto, você pode configurá-lo para usar e compreender o estilo Intel. Ele foi projetado para fazer parte do back-end da coleção de compiladores GNU (gcc).<br><br>-NASM , o "Netwide Assembler". É gratuito, pequeno e, o melhor de tudo, pode gerar zilhões de diferentes tipos de arquivos de objetos. A linguagem é muito mais sensata do que MASM em muitos aspectos.
 </p>
 
