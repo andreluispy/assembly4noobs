@@ -62,12 +62,12 @@ Geralmente usamos para declarar o label principal, o _start.
 Portanto, o nosso esqueleto de código será:
 
 <code>
-section .dat
-  ;declaração e inicialização de dados
-
-section .text
-global _start
- 
-_start:
+section .dat<br>
+  ;Aqui as variaveis e dados
+<br>
+section .text<br>
+global _start<br>
+ <br>
+_start:<br>
   ;o programa começa a rodar aqui, a partir daqui
 </code></p>
