@@ -1,0 +1,1 @@
+Aqui temos alguns testes que fui fazendo em assembly durante o curso e compilados pelo nasm para Linux!
