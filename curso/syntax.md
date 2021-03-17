@@ -59,15 +59,6 @@ Essa é a única seção obrigatória, pois conterá a label (rótulo) _start, q
 
 Geralmente usamos para declarar o label principal, o _start.
 
-Portanto, o nosso esqueleto de código será:
+Portanto, o nosso esqueleto de código será:</p>
 
-<code>
-section .dat<br>
-  ;Aqui as variaveis e dados
-<br>
-section .text<br>
-global _start<br>
- <br>
-_start:<br>
-  ;o programa começa a rodar aqui, a partir daqui
-</code></p>
+<p align="center"><img src="estrutura.png"></p>
