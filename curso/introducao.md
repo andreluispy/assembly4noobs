@@ -9,5 +9,11 @@
 <h2>Entendendo Termos</h2>
 <p>- Assembly: Linguagem de programação<br>- Assembler: Compilador da linguagem Assembly<br>- Nasm: Um assembler muito famoso e ele que usaremos no nosso curso!<br>- Arquivos .asm, .asm é a extensão para codigos assembly que depois devem ser compilados por um Assembly para poderem ser execultados</p>
 
+<p><br>A programação assembly pode ser um pouco confusa porque:<br><br>Existem muitos montadores diferentes por aí: MASM, NASM, gas, as86, TASM, a86, Terse, etc. Todos usam linguagens de montagem radicalmente diferentes.
+Existem diferenças na maneira como você deve codificar para Linux, OS / X, Windows, etc.<br>Porem a diferença entre o assembly do Windows e do Linux é muito menor do que a diferença entre o x86 e o ​​assembly do PIC<br></p>
+
+<p>Vejamos os Assemblers mais usados:<br>-MASM , o Microsoft Assembler. Ele produz arquivos OMF (mas o linker da Microsoft pode convertê-los para o formato win32). Ele oferece suporte a uma linguagem assembly enorme e desajeitada. O endereçamento de memória não é intuitivo. As diretivas necessárias para configurar um programa tornam a programação desagradável.<br><br>-GAS , o membro do GNU. Ele usa a sintaxe do estilo AT&T um tanto feia que muitas pessoas não gostam; entretanto, você pode configurá-lo para usar e compreender o estilo Intel. Ele foi projetado para fazer parte do back-end da coleção de compiladores GNU (gcc).<br><br>-NASM , o "Netwide Assembler". É gratuito, pequeno e, o melhor de tudo, pode gerar zilhões de diferentes tipos de arquivos de objetos. A linguagem é muito mais sensata do que MASM em muitos aspectos.
+</p>
+
 <h2>Preparando o ambiente</h2>
 <p>A primeira coisa que vamos precisar é do compilador nasm, para isso vamos em <a href="nasm.us">nasm.us</a>, e depois no menu clickamos em download, selecionamos a versão mais recente e terão os downloads pra windows ,Mac e Linux. Caso você use Linux é recomendavel instalar pelo terminal, em baseado em Ubuntu digitamos: <code>sudo apt-get install nasm</code>.<br>Depois precisamos de um editor de texto para criar nossos arquivos, os recomendados são: notepad++, vsCode, Eclipse e Vim.<br><br>Depois de termos o ambiente pronto vamos aprender um pouco da syntax do assembly. <a href="syntax.md">proximo</a></p>
