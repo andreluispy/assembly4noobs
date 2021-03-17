@@ -17,8 +17,8 @@ Essa tabela resume as principais diferenças das syntax assembly INTEL e AT&T :<
 </tr>
 <tr>
 <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instruções</font></font></td>
-<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sem etiqueta </font></font><code>add</code></td>
-<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Marcado com tamanhos de operando: </font></font><code>addq</code></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> </font></font><code>add</code></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font><code>addq</code></td>
 </tr>
 <tr>
 <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Registros</font></font></td>
@@ -62,3 +62,7 @@ Geralmente usamos para declarar o label principal, o _start.
 Portanto, o nosso esqueleto de código será:</p>
 
 <p align="center"><img src="estrutura.png"></p>
+
+<p>Lembrando que a identação não é nescessario no compilador nasm</p>
+
+<a href="helloworld.md">proximo - Hello World</a>
