@@ -1,9 +1,15 @@
 section .data
-	msg db "Digite seu nome: ", 0xA
+	msg db "Digite seu nome: "
 	len equ $ - msg
 
+	msg2 db "Ola, "
+	len2 equ $ - msg2
+
+	vazio db 0xA
+	lenv equ $ - vazio
+
 section .bss
-	name resb 2
+	name resb 1
 
 section .text
 global _start
@@ -25,7 +31,18 @@ _start:
 	;mostrando input
 	mov eax, 4
 	mov ebx, 1
+	mov ecx, msg2
+	mov edx, len2
+	int 0x80
+
+	mov eax, 4
+	mov ebx, 1
 	mov ecx, name
+	int 0x80
+
+	mov eax, 4
+	mov ebx, 1
+	mov ecx, vazio
 	int 0x80
 
 	mov eax, 1
