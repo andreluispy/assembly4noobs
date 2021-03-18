@@ -15,6 +15,8 @@
 <li><a href="curso/introducao.md">Introdução</a></li>
 <li><a href="curso/syntax.md">Syntax</a></li>
 <li><a href="curso/labels.md">Labels</a></li>
+<li><a href="curso/input.md">Input</a></li>
+<li><a href="curso/dados.md">Dados</a></li>
 </ol>
 <hr>
 <h2>Autores:</h2>
