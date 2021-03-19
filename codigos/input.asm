@@ -1,12 +1,11 @@
 section .data
 	msg db "Digite seu nome: "
-	len equ $ - msg
+	len equ $ msg
 
 	msg2 db "Ola, "
 	len2 equ $ - msg2
 
 	vazio db 0xA
-	lenv equ $ - vazio
 
 section .bss
 	name resb 1

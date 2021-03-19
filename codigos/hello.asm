@@ -1,5 +1,5 @@
 section .data
-	msg db 'hello world', 0xA ;Variavel msg que tem a string desejada
+	msg db 'hello world', 0xD ;Variavel msg que tem a string desejada
 	len equ $ - msg           ;Variavel len que recebera o tamanho da string
 
 section .text
