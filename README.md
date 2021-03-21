@@ -4,7 +4,11 @@
 <p> Assembly4Noobs faz parte do projeto <a href="https://github.com/he4rt/4noobs">4noobs</a> da comunidade He4rt!</p>
 
 <h1>Sobre o Projeto</h1>
-
+  <p align="center">
+    <a href="link-para-abrir-issue">Report Bug</a>
+    ·
+    <a href="link-para-abrir-issue">Request Feature</a>
+  </p>
 <p>Aprenda a linguagem Assembly do zero!</p>
 <p align = "center"> <img src = "asm_data.png"></p>
 
@@ -22,8 +26,23 @@
 </ol>
 <p>Veja alguns livros gratuitos que trouxe para o curso! Agradecimentos a Fernando Anselmo: <a href="https://github.com/andreluispy/assembly4noobs/tree/main/Livros">Click Aqui</a></p>
 <hr>
+
+## Como Contribuir
+
+Contribuições fazem com que a comunidade open source seja um lugar incrível para aprender, inspirar e criar. Todas contribuições
+são **extremamente apreciadas**
+
+1. Realize um Fork do projeto
+2. Crie um branch com a nova feature
+3. Realize o Commit
+4. Realize o Push no Branch
+5. Abra um Pull Request
+
+<hr>
 <h2>Autores:</h2>
-<p>André Luís - <a src="https://github.com/andreluispy">github</a></p>
+
+- **André Luís** - _Estudante de IA_ - [github](https://github.com/andreluispy/)
+
 <hr>
 <h2>Agradecimentos:</h2>
 <p>The Coding Den(Comunidade Discord)</p>
