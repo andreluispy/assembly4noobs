@@ -70,3 +70,5 @@ Vimos que nesse codigo não sabemos o que é DWORD e porque eax recebeu o n1 ent
 -[] significa desreferência(Pegar o valor na memoria)
 
 Então a instrução dessa linha é: Pegue o valor de 32 bits apontado por n1 e coloque-o em eax
+
+[PROXIMO - Despedida](despedida.md)

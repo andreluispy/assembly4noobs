@@ -18,7 +18,9 @@
 <li><a href="curso/input.md">Input</a></li>
 <li><a href="curso/dados.md">Dados</a></li>
 <li><a href="curso/comparacao.md">Comparação</a></li>
+<li><a href="curso/despedida.md">Despedida</a></li>
 </ol>
+<p>Veja alguns livros gratuitos que trouxe para o curso! Agradecimentos a Fernando Anselmo: <a href="https://github.com/andreluispy/assembly4noobs/tree/main/Livros">Click Aqui</a></p>
 <hr>
 <h2>Autores:</h2>
 <p>André Luís - <a src="https://github.com/andreluispy">github</a></p>
