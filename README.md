@@ -10,16 +10,26 @@
 
 <p>Requisitos: Nenhum requisito é necessário, mas é recomendável lógica de programação<br><br>Nesse curso aprenderemos a linguagem assembly na arquitetura x86, syntax INTEL e compilador NASM focando no sistema operacional LINUX porém as diferenças para o windows são pequenas!</p>
 <hr>
-<p>Conteudo:</p>
+<p>Conteudo de Assembly x86 para Ubuntu:</p>
 <ol>
 <li><a href="curso/introducao.md">Introdução</a></li>
 <li><a href="curso/syntax.md">Syntax</a></li>
 <li><a href="curso/labels.md">Labels</a></li>
 <li><a href="curso/input.md">Input</a></li>
 <li><a href="curso/dados.md">Dados</a></li>
+<li><a href="curso/comparacao.md">Comparação</a></li>
 </ol>
 <hr>
 <h2>Autores:</h2>
 <p>André Luís - <a src="https://github.com/andreluispy">github</a></p>
+<hr>
+<h2>Agradecimentos:</h2>
+<p>The Coding Den(Comunidade Discord)</p>
+<p>Fernando Anselmo(youtube)</p>
+<p>programacaoprogressiva.net</p>
+<p>Intel Assembly Manual</p>
+<p>BFT Corporations(youtube)</p>
+<p>Toda Comunida He4rt, O bom dia primos de vocês me animou a gastar meu tempo com esse projeto</p>
+<p>Rodrigo Dornelles(<a href="https://www.twitch.tv/dornellestv">https://www.twitch.tv/dornellestv</a>), Por sempre me ajudar nesse mundo da programação e a evoluir como programador, obrigado amigo</p>
 <hr>
 <p align="center"><img src="footer-4noobs.svg"></p>

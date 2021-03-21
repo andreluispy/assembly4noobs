@@ -1,5 +1,5 @@
 section .data
-	msg db 'hello world', 0xD ;Variavel msg que tem a string desejada
+	msg db "Hello World", 0xA ;Variavel msg que tem a string desejada
 	len equ $ - msg           ;Variavel len que recebera o tamanho da string
 
 section .text
@@ -11,5 +11,5 @@ _start:
 	mov edx, len ;Tamanho
 	int 0x80     ;Chamando o kernel
 
-	mov eax, 1   ;Metado de saida(sys_exit)
+	mov eax, 1   ;Metodo de Saida(sys_exit)
 	int 0x80     ;Chamando Kernell
