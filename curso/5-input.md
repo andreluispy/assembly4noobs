@@ -64,4 +64,4 @@ _start:
     int 0x80      ;CHAMAR KERNELL
 ```
 
- [PROXIMO - Tipos de dados](dados.md)
+ [PROXIMO - Tipos de dados](6-dados.md)

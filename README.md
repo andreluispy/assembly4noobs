@@ -16,13 +16,14 @@
 <hr>
 <p>Conteudo de Assembly x86 para Ubuntu:</p>
 <ol>
-<li><a href="curso/introducao.md">Introdução</a></li>
-<li><a href="curso/syntax.md">Syntax</a></li>
-<li><a href="curso/labels.md">Labels</a></li>
-<li><a href="curso/input.md">Input</a></li>
-<li><a href="curso/dados.md">Dados</a></li>
-<li><a href="curso/comparacao.md">Comparação</a></li>
-<li><a href="curso/despedida.md">Despedida</a></li>
+<li><a href="curso/1-introducao.md">Introdução</a></li>
+<li><a href="curso/2-syntax.md">Syntax</a></li>
+<li><a href="curso/3-helloworld.md">Hello World</a></li>
+<li><a href="curso/4-labels.md">Labels</a></li>
+<li><a href="curso/5-input.md">Input</a></li>
+<li><a href="curso/6-dados.md">Dados</a></li>
+<li><a href="curso/7-comparacao.md">Comparação</a></li>
+<li><a href="curso/8-despedida.md">Despedida</a></li>
 </ol>
 <p>Veja alguns livros gratuitos que trouxe para o curso! Agradecimentos a Fernando Anselmo: <a href="https://github.com/andreluispy/assembly4noobs/tree/main/Livros">Click Aqui</a></p>
 <hr>

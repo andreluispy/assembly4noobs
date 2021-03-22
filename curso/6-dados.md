@@ -82,4 +82,4 @@ variavel3 RESW 3 ; 3 palavras são reservadas, o que nos dá 3*2 = 6 bytes
 
 variavel4 REST 10 ; reservamos 10 unidades, de 10 bytes cada
 
-[PROXIMO - Comparação](comparacao.md)
+[PROXIMO - Comparação](7-comparacao.md)
