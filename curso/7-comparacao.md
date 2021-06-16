@@ -8,21 +8,21 @@ E então passamos o tipo de comparação usando o comando `j` seguido de um pref
 
 `je` usado para comparação de igualdade ==
 
-`jg` mesma logica de >
+`jg` mesma lógica de >
 
-`jge` mesma logica de =>
+`jge` mesma lógica de =>
 
-`jl` mesma logica de <
+`jl` mesma lógica de <
 
-`jle` mesma logica de <=
+`jle` mesma lógica de <=
 
-`jne` mesma logica de !=
+`jne` mesma lógica de !=
 
 E seguido do que deve acontecer se a comparação for verdadeira, por exemplo pular pra uma Label chamada "resultado": `je resultado`
 
-Lembrando que caso o resultado da comparação for falso então o codigo segue normal, no exemplo abaixo crio duas variaveis "n1 e n2" e depois comparo que se n1 for igual a n2 então mostramos "SÃO IGUAIS", senão então mostramos "NÃO SÃO IGUAIS":
+Lembrando que caso o resultado da comparação seja falso, o codigo segue normal, no exemplo abaixo, crio duas variaveis "n1 e n2" e depois comparo que se n1 for igual a n2, mostre "SÃO IGUAIS", senão, mostre "NÃO SÃO IGUAIS":
 
-```
+```asm
 section .data
 	n1 dd 25
 	n2 dd 50
@@ -65,10 +65,10 @@ naoiguais:
 
 Vimos que nesse codigo não sabemos o que é DWORD e porque eax recebeu o n1 entre colchetes, vamos entender:
 
--DWORD significa 32 bits
+-DWORD significa 32 bits;
 
--[] significa desreferência(Pegar o valor na memoria)
+-[] significa desreferência (pegar o valor na memoria).
 
-Então a instrução dessa linha é: Pegue o valor de 32 bits apontado por n1 e coloque-o em eax
+Então a instrução dessa linha é: Pegue o valor de 32 bits apontado por n1 e coloque-o em eax.
 
 [PROXIMO - Despedida](8-despedida.md)
