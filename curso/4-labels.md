@@ -1,10 +1,10 @@
 ## Labels
 
- Label é um bloco de codigo que podemos chamar no _start é como uma função em C ou Python, usamos quando temos um codigo que vai ser repetido vareas vezes e invez de repetirmos ele varias vezes somente chamamos a label que contem ele quando precisarmos.
+ *Label* é um bloco de codigo que podemos chamar no _start, é como uma função em C ou Python. Usamos quando temos um codigo que será repetido varias vezes, chamando somente a *label* que contem ele quando precisarmos.
 
- Definindo uma label:
+#### Definindo um *label*:
 
- ```
+ ```asm
 section .data
     msg db 'Hello World', 0xA
     len equ $ - msg
@@ -25,4 +25,4 @@ section .data
     int 0x80
  ```
 
-É assim que criamos um rotulo! [Proximo - Input de usuario](5-input.md)
+É assim que criamos um *label*! [Proximo - Input de usuario](5-input.md)
