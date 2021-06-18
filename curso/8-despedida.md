@@ -1,12 +1,12 @@
 # Aqui me despeço e deixo alguns caminhos e conteudos de ultima hora
 
-Algo que é interessante sabe é tudo que você pode passar pros [eax, ebx, ecx, edx] e registradores extras que não mostrei aqui, imagina tudo isso reunido numa tabela! E sim, temos aqui a tabela e ainda para assembly x64 bits e outros, basta acessar esse link: [https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)
+Algo que é interessante saber é tudo que você pode passar para [eax, ebx, ecx, edx] e os registradores extras que não mostrei aqui, imagine tudo isso reunido numa tabela! E sim, temos aqui a tabela e ainda para Assembly x64 bits e outros, basta acessar esse link: [https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)
 
-Além disso queria tratar um pouco de matematica em assembly:
+Além disso queria tratar um pouco de matematica em Assembly:
 
-A variavel que contem o valor vai ser uma string pra poder ser exibida no console, depois passamos ela como ponteiro dela para eax: `mov eax, [n1]`, depois convertemos ela pra int usado: `sub eax, '0'`, depois usamos o add para somar um valor pra ela: `add eax, 5`, depois convertemos para string usando: `add eax, '0'`, depois retornamos pra variavel o valor de `eax`: `mov [n1], eax`, vejamos o codigo real:
+A variável que contêm o valor será uma string para poder ser exibida no console, depois passamos ela como ponteiro dela para eax: `mov eax, [n1]`, depois convertemos ela pra inteiro usando: `sub eax, '0'`, usamos o add para somar um valor pra ela: `add eax, 5`, depois convertemos para string usando: `add eax, '0'`, depois retornamos à variável o valor de `eax`: `mov [n1], eax`, vejamos o codigo real:
 
-```
+```asm
 section .data
 	n1 dd "5"
 
@@ -33,9 +33,9 @@ Resultado:
 
 ![add result](add.png)
 
-Outra coisa interessante é se eu chamar uma label eu posso usar o `ret` para retornar para o `_start`, veja:
+Outra coisa interessante é que se eu chamar uma *label* eu posso usar o `ret` para retornar para o `_start`, veja:
 
-```
+```asm
 section .data
     msg db  'Hello World', 0xA
     len equ $ - msg
@@ -58,6 +58,6 @@ out:
     ret ;Retornar para start
 ```
 
-Bem, aqui me despeço e posso afirmar que nesse curso mostrei o basico de Assembly x86 pra Ubuntu!
+Bem, aqui me despeço e posso afirmar que nesse curso te mostrei o básico de Assembly x86!
 
-[Click Para voltar README.md](../README.md)
+[Click Para voltar ao README.md](../README.md)

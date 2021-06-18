@@ -25,4 +25,4 @@ section .data
     int 0x80
  ```
 
- É assim que criamos um *label*! [Proximo - Input de usuario](5-input.md)
+É assim que criamos um *label*! [Proximo - Input de usuario](5-input.md)

@@ -2,11 +2,11 @@
 
 ## Aqui veremos sobre os tipos de dados em Assembly
 
- Como enfatizamos, Assembly é em baixo nível. Trabalhamos com bits e bytes. E nesse nível, as coisas não vem prontas.
+Como enfatizamos anteriormente, Assembly é em baixo nível. Trabalhamos com bits e bytes. E nesse nível, as coisas não vem prontas.
 
-Vamos usar as seguintes variações da diretiva define: DB, DW, DD, DQ e DT.
+Iremos usar as seguintes variações da diretiva define: DB, DW, DD, DQ e DT.
 
-Eles significam e alocam determinados número de bytes, veja:
+Elas significam e alocam determinados número de bytes, veja:
 
 DB = Define Byte -> aloca 1 byte
 
@@ -14,13 +14,13 @@ DW = Define Word -> aloca 2 bytes
 
 DD = Define Doubleword -> aloca 4 bytes
 
-DQ = Define Quadword -> aloca  8 bytes
+DQ = Define Quadword -> aloca 8 bytes
 
 DT = Define Ten -> aloca 10 bytes
 
-Lembrando que o db por exemplo defini 1 byte que é equivalente a 1 caractere então a string 'A' é 1 byte porém quando passamos um valor maior que 1 byte por exemplo 'Hello' que seriam 5 bytes, para cada letra extra o assembl cria outro byte pra essa letra assim ajudando os desenvolvedores!
+Lembrando que o DB por exemplo, define 1 byte, que é equivalente a 1 caractere, então a string 'A' é 1 byte, porém, quando passamos um valor maior que 1 byte, por exemplo 'Hello' que seriam 5 bytes, para cada letra extra o Assembly cria outro byte pra essa letra, ajudando os desenvolvedores!
 
-Sabendo disso, poderemos agora mostrar como é a sintaxe de uma instrução em Assembly para alocar memória:
+Sabendo disso, agora podemos mostrar como é a sintaxe de uma instrução Assembly para alocar memória:
 
 nome diretiva_define valor
 
@@ -49,10 +49,9 @@ Veja aqui a tabela ASCII:
 Na tabela ASCII temos alguns simbolos que fazem coisas especiais como o 0xA que faz uma quebra de linha
 
 ## Reservando memória em Assembly
+Até agora, usando as diretivas define (DB, DW, DD, DQ e DT), onde alocamos memória em Assembly para armazenar e INICIALIZAR variáveis! Porém, nem sempre iremos inicializar, apenas queremos alocar.
 
- Até agora, usando as diretivas define (DB, DW, DD, DQ e DT), onde alocamos memória em Assembly para armazenar e INICIALIZAR variáveis! Porém, nem sempre vamos inicializar, apenas queremos alocar.
-
-Isso é comum para armazenar variáveis cujos valores serão fornecidos posteriormente
+Isso é comum para armazenar variáveis cujos valores serão fornecidos posteriormente.
 
 Para reservar memória, usamos a diretiva RES, ao mesmo molde da diretiva DEFINE:
 
@@ -60,13 +59,13 @@ RESB = Reserve Byte -> reserva 1 byte
 
 RESW = Reserve Word -> reserva 2 bytes
 
-RESD = Reserve Doubleword   -> reserva 4 bytes
+RESD = Reserve Doubleword -> reserva 4 bytes
 
-RESQ = Reserve Quadword     -> reserva 8 bytes
+RESQ = Reserve Quadword -> reserva 8 bytes
 
 REST = Reserve Ten -> reserva 10 bytes
 
-O RESB é usado na `section .bss` e usamos ele na aula passada de input
+O RESB é usado na `section .bss` e usamos ele na aula passada de input.
 
 Sintaxe para reservar memória:
 
