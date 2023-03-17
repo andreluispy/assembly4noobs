@@ -13,20 +13,21 @@ O comando ```mov``` é usado para mover valores e normalmente usamos eles pra pa
 
  ```asm
 section .data
-    msg db 'hello world', 0xA,
-    len equ $ - msg
+    msg db 'hello world', 0xA, ;Variavel msg que tem a string desejada
+    len equ $ - msg            ;Variavel len que recebera o tamanho da string
 
 section .text
 global _start
 _start:
-    mov eax, 4  
-    mov ebx, 1
-    mov ecx, msg
-    mov edx, len
-    int 0x80
+    mov eax, 4   ;Metodo de escrita(sys_write)
+    mov ebx, 1   ;Metodo de saida(std_out)
+    mov ecx, msg ;Mensagem
+    mov edx, len ;Tamanho
+    int 0x80     ;Chamando o kernel
 
-    mov eax, 1
-    int 0x80
+    mov eax, 1   ;Metodo de saida(sys_exit)
+    int 0x80     ;Chamando kernel
+
  ```
  
 Quando passamos o método de saída "mov eax, 1", podemos retornar um valor com o "mov ebx," e o valor a ser retornado, isso é equivalente ao "return" do C.
