@@ -9,7 +9,8 @@ O comando <code>mov</code> é usado para mover valores e normalmente usamos eles
 E quando alocamos a variavel `msg`, o 0xA é uma quebra de linha que funciona como o famoso \n de várias linguagens e, o db é o tipo de variavel, isso trataremos depois.</p>
 
 <p>Agora temos que compilar o script .asm para poder ser executado!<br>Linux: Abra a pasta onde o arquivo está no terminal e compile com o NASM: <code>nasm -f elf64 hello hello.asm</code>, o hello.asm é nosso arquivo Assembly e o elf64 é a arquitetura do sistema alvo, elf64 é usado para sistemas x64 bits e elf32 é usado para sistemas x32 bits. Esse comando irá gera o arquivo hello.o que é o codigo de maquina, o hello.o compilamos pra executavel digitando: <code>ld -s -o hello hello.o</code>, hello é o arquivo executavel gerado que como sabemos, o linux não precisa de extensão e hello.o é nosso arquivo codigo de maquina gerado pelo nasm. Para executar o arquivo executavel hello no terminal digitamos <code>./hello</code>. Caso seu programa seja 32 bits elf32 o ld deve ser informado, que é 32 bits: <code>ld -m elf_i386 -o hello hello.o</code>
-
-Windows: Abra a pasta onde o script está no terminal digite <code>nasm -f win32 hello.asm -o hello.o</code>, o win32 é a arquitetura destinada, caso queira para 64 bits digite win64, hello.o é o arquivo de codigo de maquina gerado, depois disso digite <code>ld hello.o -o hello.exe</code>, hello.o é o codio de maquina e hello.exe é o executavel gerado que pode ser execultado por duplo clique ou então pelo terminal!</p>
-
+  
+Windows: Abra no terminal a pasta em que o script está localizado e digite o comando <code>nasm -f win32 hello.asm -o hello.o</code> (caso seu processador seja 64 bits, utilize win64 ao invés de win32). Será gerado o arquivo hello.o, que contém o script que criamos, porém, em linguagem de máquina. Para gerar o executavel, basta rodar o comando 
+<code>ld hello.o -o hello.exe</code>. Você pode executar seu script dando um duplo clique no arquivo .exe ou via terminal.</p>
+  
 <a href="4-labels.md"><br>Proximo - Labels</a>
