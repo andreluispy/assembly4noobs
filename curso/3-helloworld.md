@@ -19,14 +19,14 @@ section .data
 section .text
 global _start
 _start:
-    mov eax, 4   ;Metodo de escrita(sys_write)
-    mov ebx, 1   ;Metodo de saida(std_out)
-    mov ecx, msg ;Mensagem
-    mov edx, len ;Tamanho
-    int 0x80     ;Chamando o kernel
+    mov eax, 4                 ;Metodo de escrita(sys_write)
+    mov ebx, 1                 ;Metodo de saida(std_out)
+    mov ecx, msg               ;Mensagem
+    mov edx, len               ;Tamanho
+    int 0x80                   ;Chamando o kernel
 
-    mov eax, 1   ;Metodo de saida(sys_exit)
-    int 0x80     ;Chamando kernel
+    mov eax, 1                 ;Metodo de saida(sys_exit)
+    int 0x80                   ;Chamando kernel
 
  ```
  
