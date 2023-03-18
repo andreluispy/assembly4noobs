@@ -10,9 +10,9 @@
 - Assembly: Linguagem de programação;<br>
 - Assembler: Compilador da linguagem Assembly;<br>
 - Nasm: Um assembler muito famoso e ele que usaremos aqui!;<br>
-- Arquivos .asm: .asm é a extensão para codigos assembly que depois devem ser compilados por um Assembler para poderem ser executados.
+- Arquivos .asm: .asm é a extensão para codigos assembly que depois devem ser compilados por um Assembler para que possam ser executados.
 
-<p><br>A programação assembly pode ser um pouco confusa pois:<br><br>Existem muitos montadores diferentes por aí: MASM, NASM, gas, as86, TASM, a86, Terse, etc... Todos usam linguagens de montagem radicalmente diferentes.
+<p><br>A programação assembly pode ser um pouco confusa pois:<br><br>Existem muitos <b>ASSEMBLER's</b> diferentes por aí: MASM, NASM, gas, as86, TASM, a86, Terse, etc... Todos usam linguagens de montagem radicalmente diferentes.
 Existem diferenças na maneira como você deve codificar para Linux, OS / X, Windows, etc.<br>Porem a diferença entre o assembly do Windows e do Linux é muito menor do que a diferença entre o x86 e o ​​assembly do PIC.<br></p>
 
 <p>Qual arquitetura aprender?
@@ -21,7 +21,7 @@ Eu recomendaria a arquitetura x86, por três motivos:
 Aprendendo a arquitetura x86 você poderá fazer engenharia reversa em softwares que foram compilados para essa arquitetura. Ou seja, softwares que rodam no seu PC.</p>
 
 <p>Vejamos os Assemblers mais usados:<br>
--MASM, o Microsoft Assembler. Produz arquivos OMF (mas o *linker* da Microsoft pode convertê-los para o formato win32). Oferece suporte a uma linguagem Assembly enorme e desajeitada. O endereçamento de memória não é intuitivo. As diretivas necessárias para configurar um programa tornam a programação desagradável.
+  -MASM, o Microsoft Assembler. Produz arquivos OMF (mas o <b>linker</b> da Microsoft pode convertê-los para o formato win32). Oferece suporte a uma linguagem Assembly enorme e desajeitada. O endereçamento de memória não é intuitivo. As diretivas necessárias para configurar um programa tornam a programação desagradável.
 
 -GAS, o membro do GNU. Utiliza a sintaxe do estilo AT&T, um tanto feia, muitas pessoas não gostam; entretanto, você pode configurá-lo para usar e compreender o estilo Intel. Ele foi projetado para fazer parte do back-end da coleção de compiladores GNU (gcc).
 
@@ -29,7 +29,7 @@ Aprendendo a arquitetura x86 você poderá fazer engenharia reversa em softwares
 </p>
 
 <h2>Preparando o ambiente</h2>
-<p>A primeira coisa que vamos precisar é do compilador nasm, para isso vamos em <a href="nasm.us">nasm.us</a>, e depois no menu cliquemos em *Download*, selecionemos a versão mais recente e lá estarão os *downloads* pra Windows, Mac e Linux. Caso você utilize Linux, é recomendavel instalar pelo terminal, distribuições baseadas em Ubuntu digitemos: <code>sudo apt-get install nasm</code>.
+<p>A primeira coisa que vamos precisar é do compilador nasm, para isso vamos em <a href="nasm.us">nasm.us</a>, e depois no menu em *Download*, selecionamos a versão mais recente e lá estarão os <b>downloads</b> pra Windows, Mac e Linux. Caso você utilize Linux, é recomendavel instalar pelo terminal, distribuições baseadas em Ubuntu digitemos: <code>sudo apt-get install nasm</code>.
 Depois precisamos de um editor de texto para criar nossos arquivos, os recomendados são: Notepad++, VsCode, Eclipse e Vim.
 
 Depois de termos o ambiente pronto, vamos aprender um pouco da sintaxe do Assembly. <a href="2-syntax.md">proximo</a></p>
