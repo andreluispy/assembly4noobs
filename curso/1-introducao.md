@@ -29,7 +29,7 @@ Aprendendo a arquitetura x86 você poderá fazer engenharia reversa em softwares
 </p>
 
 <h2>Preparando o ambiente</h2>
-<p>A primeira coisa que vamos precisar é do compilador nasm, para isso vamos em <a href="nasm.us">nasm.us</a>, e depois no menu em *Download*, selecionamos a versão mais recente e lá estarão os <b>downloads</b> pra Windows, Mac e Linux. Caso você utilize Linux, é recomendavel instalar pelo terminal, distribuições baseadas em Ubuntu digitemos: <code>sudo apt-get install nasm</code>.
+<p>A primeira coisa que vamos precisar é do compilador nasm, para isso vamos em <a href="https://nasm.us">nasm.us</a>, e depois no menu em *Download*, selecionamos a versão mais recente e lá estarão os <b>downloads</b> pra Windows, Mac e Linux. Caso você utilize Linux, é recomendavel instalar pelo terminal, distribuições baseadas em Ubuntu digitemos: <code>sudo apt-get install nasm</code>.
 Depois precisamos de um editor de texto para criar nossos arquivos, os recomendados são: Notepad++, VsCode, Eclipse e Vim.
 
 Depois de termos o ambiente pronto, vamos aprender um pouco da sintaxe do Assembly. <a href="2-syntax.md">proximo</a></p>
