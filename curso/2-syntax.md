@@ -43,16 +43,17 @@ Esta tabela resume as principais diferenças das sintaxes Assembly INTEL e AT&T:
 </tbody></table>
 <p><br>Nesse curso trataremos da sintaxe Intel e Assembly x86 usando o sistema Linux, alguns codigo podem não funcionar no Windows, caso queira mostrar um codigo que não funciona no Windows, abra uma Issue!</p>
 
-<p>No assembly usamos o <code>;</code> para criar comentarios no codigo!<br>Além disso, dividimos nosso codigo em seções, vejamos:<br>Na .data, como o nome sugere, é uma região do código que será usada para tratar as informações, os dados, as variáveis.
+<p>No assembly usamos o <code>;</code> para criar comentarios no codigo!<br>Além disso, dividimos nosso codigo em seções, vejamos:<br><h2>.DATA</h2><br>Na .data, como o nome sugere, é uma região do código que será usada para tratar as informações, os dados, as variáveis.<
 
 Nesse trecho (geralmente o inicial), declaramos e inicializamos as variáveis.
 
-Fazemos algo parecido na .bss section, porém não inicializamos as informações.
+<b>OBS: Na .bss section, fazemos algo parecido, porém não inicializamos as informações de imediato.</b>
 
+<h2>.TEXT</h2><br>
 Por fim, a .text section é o local onde irá ficar armazenado suas instruções, que irão trabalhar com os dados previamente declarados.
 Essa é a única seção obrigatória, pois conterá a label (rótulo) _start, que é o local onde os executáveis são inicializados, _start é como o main() do C.</p>
 
-<p>Comando global, usado para declarar labels e mostra que o label relacionado é global, ou seja, é passível de uso externamente.
+<p><b>Comando global:</b> Usado para declarar labels globais, ou seja, passíveis de uso externo.
 
 Geralmente usamos para declarar o label principal, o _start.
 
