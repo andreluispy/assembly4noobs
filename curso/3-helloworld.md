@@ -7,7 +7,7 @@ Aqui trataremos como fazer um Hello World e iremos explicar cada coisa! Em Assem
 * cx, Registro de contas realizado com string
 * dx, Registro de dados
 
-Normalmente são acompanhados da letra E que é compativel com computadores 32 e 64 bits, somente no assembly 64 bits podemos usar a letra R, no curso usarei a letra E para ser compatpivel com os dois tipos de sistemas.
+Normalmente são acompanhados da letra E que é compatível com computadores 32 e 64 bits, somente no assembly 64 bits podemos usar a letra R, no curso usarei a letra E para ser compatível com os dois tipos de sistemas.
 
 O comando ```mov``` é usado para mover valores e normalmente usamos eles pra passar valores para os comandos ```[eax, ebx, ecx, edx]```, vejamos os seus usos comentados no Hello World abaixo (lembrando que os scripts Assembly tem a extensão .asm então criei o arquivo ```hello.asm```)
 
